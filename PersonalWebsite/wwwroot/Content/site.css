@@ -1,0 +1,103 @@
+﻿body {
+    margin: 0px;
+}
+
+header {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 18px;
+    min-height: 98vh;
+    overflow: hidden;
+    padding-top: 75px;
+    padding-left: 75px;
+    position: relative;
+    background: url(../Images/landing-bg.jpg) center right/cover no-repeat;
+}
+
+    header::after {
+        background: rgba(0,0,0,0.6);
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+
+header > * {
+    position: relative;
+    z-index: 1
+}
+
+code {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    padding: 0 .25rem
+}
+
+pre {
+    margin-top: 0;
+    white-space: pre-line
+}
+
+    pre code {
+        background: 0;
+        padding: 0
+    }
+
+
+em {
+    color: #fff;
+    font-style: normal;
+}
+
+
+.whoami-property{
+    padding-left: 45px;
+}
+
+.whoami-property-keyword {
+    color: #569CC9;
+}
+
+.whoami-class {
+    color: #4EC9B0;
+}
+
+.whoami-property-string {
+    color: #D69D85;
+}
+
+.whoami-array-val{
+    padding-left:19%;
+}
+
+.closing-array {
+    padding-left: 3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.fa {
+    border: 1px solid transparent;
+    font-size: 1.5em;
+    margin-right: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+    a.fa:hover{
+        border:1px solid #fff;
+    }

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>    
+</head>
+<body>
+    <header>
+        <pre itemscope="" itemtype="http://schema.org/Person">                
+          <code>
+            <span class="media-not-small">
+                <font class="whoami-property-keyword">public class </font><font class="whoami-class">Gerade</font>{
+                    </span>
+                        <span class="whoami-property"><em class="whoami-property-keyword">public string </em><em>FullName = </em><em class="whoami-property-string">"Gerade Geldenhuys"</em></span>
+                        <span class="whoami-property"><em class="whoami-property-keyword">public string </em><em>Location = </em><em class="whoami-property-string">"Pretoria - South Africa"</em></span>
+                        <span class="whoami-property"><em class="whoami-property-keyword">public string </em><em>JobTitle = </em><em class="whoami-property-string">"Software Developer"</em></span>                                                                                  
+                        <span class="whoami-property"><em class="whoami-property-keyword">public string </em><em>WorksFor = </em><em class="whoami-property-string"><a href="http://www.warpdevelopment.co.za" rel="noopener" target="_blank"><span itemprop="worksFor">Warp Development</span></a></em></span>                                                                                                                                                                    
+                        <span class="whoami-property"><em class="whoami-property-keyword">public </em><em class="whoami-class">Array </em> <em>Interests = </em> <em class="whoami-property-keyword">new </em>[] {
+                                                        <em class="whoami-property-string whoami-array-val">".NET"</em>,
+                                                        <em class="whoami-property-string whoami-array-val">"Javascript"</em>,                         
+                                                        <em class="whoami-property-string whoami-array-val">"Azure"</em>,                            
+                                                        <em class="whoami-property-string whoami-array-val">"Sitefinity"</em>,                            
+                                                        <em class="whoami-property-string whoami-array-val">"Xamarin"</em>,                            
+                                                        <em class="whoami-property-string whoami-array-val">"Web"</em>,                            
+                                                        <em class="whoami-property-string whoami-array-val">"Mobile"</em>,                            
+                                                        <em class="whoami-property-string whoami-array-val">"Dev Ops"</em>,
+                       <em class="closing-array">}</em></span>
+                        
+              <span class="media-not-small">}</span>
+         </code>
+       </pre>
+
+        <footer>
+            <a class="fa fa-github" title="Github profile" href="https://github.com/GeradeDev" rel="noopener" target="_blank"></a>
+            <a class="fa fa-twitter" title="Twitter profile" href="https://www.twitter.com/Raidzen10" rel="noopener" target="_blank"></a>
+        </footer>
+
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
